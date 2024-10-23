@@ -8,6 +8,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lblTexto1;
+@property (weak, nonatomic) IBOutlet UIImageView *imgVProd1;
+@property (weak, nonatomic) IBOutlet UIPickerView *pckVSelector1;
 
 
 @end
